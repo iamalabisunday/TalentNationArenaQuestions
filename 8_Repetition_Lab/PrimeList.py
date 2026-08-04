@@ -1,0 +1,1 @@
+# Implement prime_list(n). Return a list of all prime numbers from 2 to n inclusive. A prime number has exactly two positive divisors. Students may need to research a simple primality test or the Sieve of Eratosthenes.
