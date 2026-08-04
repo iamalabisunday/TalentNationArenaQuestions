@@ -4,7 +4,7 @@
 # For ZeroDivisionError return Check that the denominator is not zero. For IndexError return Check the 
 # index is inside the valid range. For anything else return Read the traceback carefully.
 
-def error_hint(error_type: str) -> str:
+def error_hint(error_type):
     """Returns a helpful debugging hint based on the Python error type."""
     hints = {
         "NameError": "Check variable names and spelling.",
