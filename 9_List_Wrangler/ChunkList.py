@@ -7,10 +7,10 @@ def chunk_list(items, size):
 
 # or 
 
-def chunk_list(items, size):
-    if size < 1:
-        return "Invalid size"
-    result = []
-    for i in range(0, len(items), size):
-        result.append(items[i:i + size])
-    return result
+# def chunk_list(items, size):
+#     if size < 1:
+#         return "Invalid size"
+#     result = []
+#     for i in range(0, len(items), size):
+#         result.append(items[i:i + size])
+#     return result
