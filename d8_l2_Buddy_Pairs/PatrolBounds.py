@@ -8,7 +8,7 @@ For [(1, 3), (4, 1), (2, 5)] the answer is (1, 4, 1, 5). You may use min() and m
 def patrol_bounds(positions):
     rows = [p[0] for p in positions]
     cols = [p[1] for p in positions]
-    return (min(rows), max(rows), min(cols), max(cols))
+    return [min(rows), max(rows), min(cols), max(cols)]
 
 # def patrol_bounds(positions):
 #     min_row, max_row = positions[0][0], positions[0][0]
