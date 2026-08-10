@@ -5,3 +5,9 @@ JOB 3. Two parallel lists have arrived from the field: one of callsigns, one of 
 
 For callsigns [Ada, Tunde] and statuses [active, standby] the result is {Ada: active, Tunde: standby}.
 """
+
+def build_ledger(callsigns, statuses):
+    result = {}
+    for i in range(len(callsigns)):
+        result[callsigns[i]] = statuses[i]
+    return result
